@@ -7,18 +7,19 @@ title: "first-website"
 #| echo: false
 library(tidyverse)
 library(ggthemes)
+library(knitr)
 ```
 
 ```{r}
 #| echo: false
 #| label: car-plot
-mtcars |>
-select(mpg, wt) |>
-ggplot(aes(x = wt, y = mpg)) +
-geom_point() +
-geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-theme_clean() +
-labs(title = "Fuel Efficiency and Weight", subtitle = "Heavier cars are less efficient",
-  x = "Weight (1000s of lbs)", y = "MPG", 
-  caption = "Henderson and Vellerman (1981)")
+my_plot <- read_rds(file = "car-plot.rds")
+my_plot
+ggsave("car-plot.png", plot = my_plot)
+# This image was made using ggplot in an Rscript file and then saved to an object in a quarto document. I then used ggsave to save the image to a .png 
+```
+
+```{r}
+library(knitr)
+include_graphics("images/car-plot.png")
 ```

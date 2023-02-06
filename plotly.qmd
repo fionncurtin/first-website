@@ -1,0 +1,15 @@
+---
+title: "Chicken Weight"
+---
+
+```{r}
+#| echo: false
+#| label: chickweight
+library(plotly)
+library(tidyverse)
+plot <- ggplot(data = ChickWeight, mapping = aes(x = weight, y = Diet,
+                                         text = weight)) +
+  geom_point(alpha = 0.5)
+
+ggplotly(plot, tooltip = "text")
+```
