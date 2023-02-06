@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 4ecac91a-bfed-4f11-980b-d42f26aaef3e
+      url: 'https://quartopub.com/sites/dfionncurtin/first-website'

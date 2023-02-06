@@ -2,8 +2,24 @@
 title: "About"
 ---
 
-About this site
+## About Me
 
-```{r}
-1 + 1
-```
+My name is **Dermot Curtin** and I am a recent graduate of the College of William and Mary currently working as a content editor at catalyst.cm.
+
+## About the Project
+
+*The Efficiency Program* interrogates the relationship between the weight and fuel efficiency of motor vehicles. The two variables have an inverse correlation.
+
+### Goals
+
+-   Determine the causes of increases in fuel efficiency over time
+
+    -   +Data is four decades out of date
+
+-   Achieve space flight
+
+"This is data science"
+\
+~Preceptor
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info.)

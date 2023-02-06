@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "first-website",
-    "section": "",
-    "text": "mtcars |>\nselect(mpg, wt) |>\nggplot(aes(x = wt, y = mpg)) +\ngeom_point() +\ngeom_smooth(method = \"lm\", formula = y ~ x, se = FALSE) +\ntheme_clean() +\nlabs(title = \"Fuel Efficiency and Weight\", subtitle = \"Heavier cars are less efficient\",\n  x = \"Weight (1000s of lbs)\", y = \"MPG\", \n  caption = \"Henderson and Vellerman (1981)\")"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Dermot Curtin and I am a recent graduate of the College of William and Mary currently working as a content editor at catalyst.cm."
+  },
+  {
+    "objectID": "about.html#about-the-project",
+    "href": "about.html#about-the-project",
+    "title": "About",
+    "section": "About the Project",
+    "text": "About the Project\nThe Efficiency Program interrogates the relationship between the weight and fuel efficiency of motor vehicles. The two variables have an inverse correlation.\n\nGoals\n\nDetermine the causes of increases in fuel efficiency over time\n\n+Data is four decades out of date\n\nAchieve space flight\n\n“This is data science”\n~Preceptor\nKane’s Free High School Data Science Bootcamp"
   }
 ]
