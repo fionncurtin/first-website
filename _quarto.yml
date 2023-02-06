@@ -16,8 +16,8 @@ website:
     background: "#ffffff"
     collapse-level: 2
     contents:
-      -"source-1.qmd"
-      -"source-2.qmd"
+      - source-1.qmd
+      - source-2.qmd
 
 format:
   html:
