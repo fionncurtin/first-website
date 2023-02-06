@@ -12,5 +12,12 @@
     "title": "About",
     "section": "About the Project",
     "text": "About the Project\nThe Efficiency Program interrogates the relationship between the weight and fuel efficiency of motor vehicles. The two variables have an inverse correlation.\n\nGoals\n\nDetermine the causes of increases in fuel efficiency over time\n\n+Data is four decades out of date\n\nAchieve space flight\n\n“This is data science”\n~Preceptor\nKane’s Free High School Data Science Bootcamp"
+  },
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "sources.qmd",
+    "section": "",
+    "text": "These are my sources. Here are some challenges. Quarto websites are awesome."
   }
 ]
